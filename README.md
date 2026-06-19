@@ -17,3 +17,24 @@ This system operates an image-matrix processing pipeline utilizing Python algori
 | 🌌 Source Matrix Data | 📉 Computed Grayscale | 🧬 Gaussian Convolution | ⚡ Spatial Edge Matrix |
 | :---: | :---: | :---: | :---: |
 | <img src="profile_avatar.jpg" width="140"> | <img src="outputs/transformed_grayscale.png" width="140" alt="Grayscale"> | <img src="outputs/transformed_blurred.png" width="140" alt="Blur"> | <img src="outputs/transformed_edges.png" width="140" alt="Edges"> |
+
+---
+
+## 👩‍💻 About Me
+Hi! I am Kate Cerezo, a passionate student explorer blending technology and creativity. Aside from coding, I enjoy sports, capturing memories, and spending quality time with my favorite coding companion.
+
+---
+
+## 🐾 My Chief Coding Assistant: Bluey!
+<p align="left">
+  <img src="bluey.jpg" width="350" style="border-radius: 8px; border: 2px solid #00F2FE;" alt="Bluey the Cat" /><br>
+  <em>"Meet Bluey, my emotional support cat and co-programmer! Helping me debug one meow at a time. 🐈🐾"</em>
+</p>
+
+---
+
+## 🏆 School Olympics Memories
+<p align="left">
+  <img src="olympics.jpg" width="400" style="border-radius: 8px;" alt="School Olympics" /><br>
+  <em>"Giving my all during the School Olympics! 🏅 Representing with pride and teamwork."</em>
+</p>
