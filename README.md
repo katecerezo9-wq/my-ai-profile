@@ -26,7 +26,7 @@ Hi! I am Kate Cerezo, a passionate student explorer blending technology and crea
 ---
 
 ## 🐾 My Chief Coding Assistant: Bluey!
-<p align="left">
+<p align="center">
   <img src="bluey.jpg" width="350" style="border-radius: 8px; border: 2px solid #00F2FE;" alt="Bluey the Cat" /><br>
   <em>"Meet Bluey, my emotional support cat and co-programmer! Helping me debug one meow at a time. 🐈🐾"</em>
 </p>
@@ -34,7 +34,16 @@ Hi! I am Kate Cerezo, a passionate student explorer blending technology and crea
 ---
 
 ## 🏆 School Olympics Memories
-<p align="left">
-  <img src="olympics.jpg" width="400" style="border-radius: 8px;" alt="School Olympics" /><br>
-  <em>"Giving my all during the School Olympics! 🏅 Representing with pride and teamwork."</em>
-</p>
+
+<table>
+  <tr>
+    <td align="center" valign="top">
+      <img src="olympics.jpg" width="300" style="border-radius: 8px;" alt="School Olympics 1" /><br>
+      <em>"Giving my all during the tournament! 🏅"</em>
+    </td>
+    <td align="center" valign="top">
+      <img src="olympics2.jpg" width="300" style="border-radius: 8px;" alt="School Olympics 2" /><br>
+      <em>"Teamwork makes the dream work! ⚡"</em>
+    </td>
+  </tr>
+</table>
