@@ -7,12 +7,15 @@
 
 ---
 
-## 🤖 Core AI & Digital Image Algorithm (Rubric Aligned)
-This system operates an image-matrix processing pipeline utilizing Python algorithms to alter structural spatial pixels via discrete matrix convolution filters.
+<h3 align="center" style="color: #00F2FE;">🤖 Core AI & Digital Image Algorithm</h3>
+
+<p align="center">
+  This project features a basic image processing script written in Python. It directly modifies image pixels using matrix convolution filters to generate custom grayscale, blur, and edge-detected outputs.
+</p>
 
 ---
 
-## 📊 Live Visual Transformation Output Matrix
+<h3 align="center" style="color: #00F2FE;">📊 Live Visual Transformation Output Matrix</h3>
 
 | 🌌 Source Matrix Data | 📉 Computed Grayscale | 🧬 Gaussian Convolution | ⚡ Spatial Edge Matrix |
 | :---: | :---: | :---: | :---: |
@@ -20,14 +23,20 @@ This system operates an image-matrix processing pipeline utilizing Python algori
 
 ---
 
-## 👩‍💻 About Me
-Hi! I am **Kate Cerezo**. I have a natural eye and talent for **Designing** visual experiences and keeping things creative. As a certified **Sagittarius** ♐, I am always driven by a passion for exploration, new adventures, and constant learning.
+<h3 align="center" style="color: #00F2FE;">👩‍💻 About Me</h3>
 
-Whenever I'm bored or have nothing to do, you will most likely find me exploring virtual worlds and playing **any online games** 🎮!
+<p align="center">
+  Hi! I am <strong>Kate Cerezo</strong>. I have a natural eye and talent for <strong>Designing</strong> visual experiences and keeping things creative. As a certified <strong>Sagittarius</strong> ♐, I am always driven by a passion for exploration, new adventures, and constant learning.
+</p>
+
+<p align="center">
+  Whenever I'm bored or have nothing to do, you will most likely find me exploring virtual worlds and playing <strong>any online games</strong> 🎮!
+</p>
 
 ---
 
-## 🐾 My Chief Coding Assistant: Bluey!
+<h3 align="center" style="color: #00F2FE;">🐾 My Chief Coding Assistant: Bluey!</h3>
+
 <p align="center">
   <img src="bluey.jpg" width="350" style="border-radius: 8px; border: 2px solid #00F2FE;" alt="Bluey the Cat" />
   <br>
@@ -36,7 +45,7 @@ Whenever I'm bored or have nothing to do, you will most likely find me exploring
 
 ---
 
-## 🏆 School Olympics Memories
+<h3 align="center" style="color: #00F2FE;">🏆 School Olympics Memories</h3>
 
 <table align="center" style="border: none; border-collapse: collapse;">
   <tr>
