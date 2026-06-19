@@ -35,15 +35,15 @@ Hi! I am Kate Cerezo, a passionate student explorer blending technology and crea
 
 ## 🏆 School Olympics Memories
 
-<table width="100%" style="border-collapse: collapse; border: none;">
+<table align="center" style="margin-left: auto; margin-right: auto; transform: translateX(10px);">
   <tr>
-    <td width="48%" align="center" valign="top" style="border: none; padding: 10px;">
-      <img src="olympics.jpg" width="100%" style="border-radius: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);" alt="School Olympics 1" /><br><br>
-      <caption align="bottom"><em>"Giving my all during the tournament! 🏅"</em></caption>
+    <td align="center" valign="top" style="padding: 10px;">
+      <img src="olympics.jpg" width="300" style="border-radius: 8px;" alt="School Olympics 1" /><br>
+      <em>"Giving my all during the tournament! 🏅"</em>
     </td>
-    <td width="48%" align="center" valign="top" style="border: none; padding: 10px;">
-      <img src="olympics2.jpg" width="100%" style="border-radius: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);" alt="School Olympics 2" /><br><br>
-      <caption align="bottom"><em>"Teamwork makes the dream work! ⚡"</em></caption>
+    <td align="center" valign="top" style="padding: 10px;">
+      <img src="olympics2.jpg" width="300" style="border-radius: 8px;" alt="School Olympics 2" /><br>
+      <em>"Teamwork makes the dream work! ⚡"</em>
     </td>
   </tr>
 </table>
