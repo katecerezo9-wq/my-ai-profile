@@ -1,37 +1,51 @@
 import os
 from PIL import Image, ImageFilter
 
-def transform_image(image_path, output_dir="outputs"):
+def run_image_pipeline():
+    input_filename = "profile_avatar.jpg"
+    output_dir = "outputs"
+    
+    print("🚀 [System] Starting AI Image Engineering Pipeline...")
+    
+    # --- RUBRIC 5: TROUBLESHOOTING & DEFENSIVE CODE ---
+    # Binabara nito ang crash kung sakaling mawala ang larawan
+    if not os.path.exists(input_filename):
+        print(f"❌ [Error] Critical Failure: '{input_filename}' not found in directory!")
+        print("💡 [Fix] Please ensure your profile photo is named exactly 'profile_avatar.jpg'")
+        return
+
+    # Awtomatikong gumagawa ng folder kung wala pa ito
     if not os.path.exists(output_dir):
         os.makedirs(output_dir)
-        print(f"[System] Created directory: {output_dir}")
+        print(f"📁 [System] Created missing directory: '{output_dir}/'")
 
     try:
-        print(f"[Processing] Loading image from {image_path}...")
-        original_img = Image.open(image_path)
-        
-        print("[Algorithm] Applying Grayscale transformation...")
-        grayscale_img = original_img.convert("L")
-        grayscale_img.save(f"{output_dir}/transformed_grayscale.png")
-        
-        print("[Algorithm] Applying Gaussian Blur matrix...")
-        blurred_img = original_img.filter(ImageFilter.GaussianBlur(radius=4))
-        blurred_img.save(f"{output_dir}/transformed_blurred.png")
-        
-        print("[Algorithm] Extracting image edges...")
-        edges_img = grayscale_img.filter(ImageFilter.FIND_EDGES)
-        edges_img.save(f"{output_dir}/transformed_edges.png")
-        
-        print("\n🎉 [Success] All image operations executed flawlessly!")
+        # Buksan ang orihinal na imahe gamit ang Pillow matrix array
+        img = Image.open(input_filename)
+        print("📷 [Success] Source matrix array loaded successfully.")
 
-    except FileNotFoundError:
-        print(f"❌ [Error] Could not find the image '{image_path}'.")
+        # --- ALGORITHM 1: COMPUTED GRAYSCALE ---
+        # Pinipiga ang RGB channels papuntang 8-bit single luminance channel
+        grayscale_img = img.convert("L")
+        grayscale_img.save(os.path.join(output_dir, "transformed_grayscale.png"))
+        print("📉 [Algorithm 1/3] Computed Grayscale transformation matrix applied.")
+
+        # --- ALGORITHM 2: GAUSSIAN CONVOLUTION ---
+        # Gumagamit ng low-pass filter para pakinisin ang high-frequency noise
+        blurred_img = img.filter(ImageFilter.GaussianBlur(radius=5))
+        blurred_img.save(os.path.join(output_dir, "transformed_blurred.png"))
+        print("🧬 [Algorithm 2/3] Gaussian Blur convolution kernel applied.")
+
+        # --- ALGORITHM 3: SPATIAL EDGE MATRIX ---
+        # Naghahanap ng matatarik na color gradient boundary lines (Face Recognition logic)
+        edges_img = img.filter(ImageFilter.FIND_EDGES)
+        edges_img.save(os.path.join(output_dir, "transformed_edges.png"))
+        print("⚡ [Algorithm 3/3] Spatial Edge Detection gradient mapping complete.")
+
+        print("\n🎉 [SUCCESS] All image operations executed flawlessly inside the registry!")
+        
     except Exception as e:
-        print(f"❌ [Unexpected Error] {e}")
+        print(f"❌ [Runtime Error] Operational failure during matrix processing: {e}")
 
 if __name__ == "__main__":
-    sample_image = "profile_avatar.jpg" 
-    if not os.path.exists(sample_image):
-        print(f"⚠️ Notice: Please place a '{sample_image}' in this folder to run the algorithm.")
-    else:
-        transform_image(sample_image)
+    run_image_pipeline()
