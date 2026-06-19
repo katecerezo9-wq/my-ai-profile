@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kate Cerezo | Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #0d1117;
+            color: #c9d1d9;
+            line-height: 1.6;
+        }
+
+        /* Navigation Bar */
+        nav {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background-color: rgba(22, 27, 34, 0.95);
+            border-bottom: 1px solid #30363d;
+            padding: 15px 50px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            z-index: 1000;
+        }
+
+        nav .logo {
+            font-size: 1.35rem;
+            font-weight: bold;
+            color: #00F2FE;
+            letter-spacing: 1px;
+        }
+
+        nav ul {
+            display: flex;
+            list-style: none;
+        }
+
+        nav ul li {
+            margin-left: 25px;
+        }
+
+        nav ul li a {
+            color: #c9d1d9;
+            text-decoration: none;
+            font-size: 0.95rem;
+            transition: color 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #00F2FE;
+        }
+
+        /* Hero / Profile Section */
+        header {
+            padding: 140px 20px 80px 20px;
+            text-align: center;
+            background: radial-gradient(circle at top, rgba(0, 242, 254, 0.05), transparent);
+        }
+
+        .profile-img {
+            width: 160px;
+            height: 160px;
+            border-radius: 50%;
+            border: 4px solid #00F2FE;
+            object-fit: cover;
+            margin-bottom: 20px;
+            box-shadow: 0 0 20px rgba(0, 242, 254, 0.2);
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            color: #f0f6fc;
+            margin-bottom: 5px;
+        }
+
+        header .subtitle {
+            font-size: 1.1rem;
+            color: #8b949e;
+            margin-bottom: 20px;
+        }
+
+        .badge-container {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+
+        .badge {
+            background-color: #161b22;
+            border: 1px solid #30363d;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            color: #00F2FE;
+        }
+
+        /* Container Settings */
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        section {
+            margin-bottom: 60px;
+            background-color: #161b22;
+            border: 1px solid #30363d;
+            border-radius: 12px;
+            padding: 30px;
+        }
+
+        section h2 {
+            color: #00F2FE;
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+            border-bottom: 1px solid #30363d;
+            padding-bottom: 10px;
+        }
+
+        /* Contact Details */
+        .contact-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+        }
+
+        .contact-card {
+            background-color: #0d1117;
+            border: 1px solid #30363d;
+            padding: 15px;
+            border-radius: 8px;
+            text-decoration: none;
+            color: #c9d1d9;
+            transition: transform 0.3s, border-color 0.3s;
+        }
+
+        .contact-card:hover {
+            transform: translateY(-3px);
+            border-color: #00F2FE;
+            color: #00F2FE;
+        }
+
+        /* Photo Gallery Grid */
+        .gallery-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+
+        @media (max-width: 600px) {
+            .gallery-grid { grid-template-columns: 1fr; }
+        }
+
+        .gallery-item {
+            text-align: center;
+            background-color: #0d1117;
+            border: 1px solid #30363d;
+            padding: 15px;
+            border-radius: 8px;
+        }
+
+        .gallery-item img {
+            width: 100%;
+            border-radius: 6px;
+            object-fit: cover;
+            aspect-ratio: 4/3;
+            margin-bottom: 10px;
+        }
+
+        .gallery-item em {
+            font-size: 0.85rem;
+            color: #8b949e;
+            display: block;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 40px 20px;
+            color: #8b949e;
+            font-size: 0.85rem;
+            border-top: 1px solid #30363d;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="logo">KC.</div>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#gallery">Memories</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Header / Hero -->
+    <header>
+        <img src="profile_avatar.jpg" alt="Kate Cerezo" class="profile-img">
+        <h1>Kate Cerezo</h1>
+        <p class="subtitle">Creative Designer & Explorer</p>
+        <div class="badge-container">
+            <span class="badge">♐ Sagittarius</span>
+            <span class="badge">🎮 Gamer</span>
+        </div>
+    </header>
+
+    <div class="container">
+        
+        <!-- About Me Section -->
+        <section id="about">
+            <h2>👩‍💻 About Me</h2>
+            <p style="font-size: 1.05rem; margin-bottom: 15px;">
+                Hi! I am <strong>Kate Cerezo</strong>. I have a natural eye and talent for <strong>Designing</strong> visual experiences and keeping things creative. As a certified Sagittarius, I am always driven by a passion for exploration, new adventures, and constant learning.
+            </p>
+            <p style="font-size: 1.05rem;">
+                Whenever I'm bored or have nothing to do, you will most likely find me exploring virtual worlds and playing <strong>any online games</strong>!
+            </p>
+        </section>
+
+        <!-- Gallery Section -->
+        <section id="gallery">
+            <h2>🏆 School Olympics Memories</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="olympics.jpg" alt="School Olympics 1">
+                    <em>"Giving my all during the tournament! 🏅"</em>
+                </div>
+                <div class="gallery-item">
+                    <img src="olympics2.jpg" alt="School Olympics 2">
+                    <em>"Teamwork makes the dream work! ⚡"</em>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2>📬 Get in Touch</h2>
+            <div class="contact-grid">
+                <a href="mailto:katecerezo9@gmail.com" class="contact-card">
+                    <strong>📧 Email Us</strong><br>
+                    <span style="font-size: 0.85rem; color: #8b949e;">katecerezo9@gmail.com</span>
+                </a>
+                <a href="https://github.com/katecerezo9-wq" target="_blank" class="contact-card">
+                    <strong>🌐 GitHub Profile</strong><br>
+                    <span style="font-size: 0.85rem; color: #8b949e;">github.com/katecerezo9-wq</span>
+                </a>
+            </div>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Kate Cerezo. Built with passion & creativity.</p>
+    </footer>
+
+</body>
+</html>
