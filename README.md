@@ -14,7 +14,7 @@
         Whenever I'm bored, you will find me playing <strong>any online games</strong>!
       </p>
       <hr style="border: 0.5px solid #30363d;">
-      <!-- NEW CONTACT SECTION -->
+      <!-- CONTACT SECTION -->
       <h4 align="left" style="color: #00F2FE; margin-bottom: 8px;">📬 Get in Touch</h4>
       <p align="left" style="font-size: 0.9em; margin-bottom: 5px;">
         📧 <strong>Email:</strong><br>
@@ -26,17 +26,17 @@
       </p>
       <hr style="border: 0.5px solid #30363d;">
       <p align="center" style="font-size: 0.85em; color: #8b949e;">
-        <strong>Coding Assistant:</strong><br>
+        <strong>Project Assistant:</strong><br>
         <img src="bluey.jpg" width="100%" style="border-radius: 8px; margin-top: 8px; border: 1px solid #00F2FE;" alt="Bluey" /><br>
         <em>"Meet Bluey! 🐈🐾"</em>
       </p>
     </td>
     <!-- KANANG BAHAGI: ANG MGA PROYEKTO AT MEMORIES (Width: 70%) -->
     <td width="70%" valign="top" style="border: none; padding-left: 25px;">
-      <h1 style="color: #00F2FE; font-family: 'Fira Code', monospace; margin-top: 10px;">👋 Welcome to my AI Engineered Portfolio!</h1>
+      <h1 style="color: #00F2FE; font-family: 'Fira Code', monospace; margin-top: 10px;">👋 Welcome to my Project Portfolio!</h1>
       <p style="color: #8b949e;">A showcase of visual computing and digital experiences.</p>
       <br>
-      <h3 style="color: #00F2FE; border-bottom: 1px solid #30363d; padding-bottom: 5px;">🤖 Core AI & Digital Image Algorithm</h3>
+      <h3 style="color: #00F2FE; border-bottom: 1px solid #30363d; padding-bottom: 5px;">💻 Digital Image Processing Pipeline</h3>
       <p>
         This project features a basic image processing script written in Python. It directly modifies image pixels using matrix convolution filters to generate custom grayscale, blur, and edge-detected outputs.
       </p>
