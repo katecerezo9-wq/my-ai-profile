@@ -21,13 +21,16 @@ This system operates an image-matrix processing pipeline utilizing Python algori
 ---
 
 ## 👩‍💻 About Me
-Hi! I am Kate Cerezo, a passionate student explorer blending technology and creativity. Aside from coding, I enjoy sports, capturing memories, and spending quality time with my favorite coding companion.
+Hi! I am **Kate Cerezo**. I have a natural eye and talent for **Designing** visual experiences and keeping things creative. As a certified **Sagittarius** ♐, I am always driven by a passion for exploration, new adventures, and constant learning.
+
+Whenever I'm bored or have nothing to do, you will most likely find me exploring virtual worlds and playing **any online games** 🎮!
 
 ---
 
 ## 🐾 My Chief Coding Assistant: Bluey!
 <p align="center">
-  <img src="bluey.jpg" width="350" style="border-radius: 8px; border: 2px solid #00F2FE;" alt="Bluey the Cat" /><br>
+  <img src="bluey.jpg" width="350" style="border-radius: 8px; border: 2px solid #00F2FE;" alt="Bluey the Cat" />
+  <br>
   <em>"Meet Bluey, my emotional support cat and co-programmer! Helping me debug one meow at a time. 🐈🐾"</em>
 </p>
 
@@ -35,11 +38,17 @@ Hi! I am Kate Cerezo, a passionate student explorer blending technology and crea
 
 ## 🏆 School Olympics Memories
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/katecerezo9-wq/my-ai-profile/main/olympics.jpg" width="45%" style="border-radius: 12px; margin: 10px; display: inline-block;" alt="School Olympics 1" />
-  <img src="https://raw.githubusercontent.com/katecerezo9-wq/my-ai-profile/main/olympics2.jpg" width="45%" style="border-radius: 12px; margin: 10px; display: inline-block;" alt="School Olympics 2" />
-</p>
-
-<p align="center" style="font-style: italic;">
-  "Giving my all during the tournament! 🏅" &nbsp;&nbsp;&nbsp;&nbsp; Teamwork makes the dream work! ⚡"
-</p>
+<table align="center" style="border: none; border-collapse: collapse;">
+  <tr>
+    <td align="center" style="border: none; padding: 10px;">
+      <img src="olympics.jpg" width="300" style="border-radius: 8px;" alt="School Olympics 1" />
+      <br><br>
+      <em>"Giving my all during the tournament! 🏅"</em>
+    </td>
+    <td align="center" style="border: none; padding: 10px;">
+      <img src="olympics2.jpg" width="300" style="border-radius: 8px;" alt="School Olympics 2" />
+      <br><br>
+      <em>"Teamwork makes the dream work! ⚡"</em>
+    </td>
+  </tr>
+</table>
