@@ -35,15 +35,15 @@ Hi! I am Kate Cerezo, a passionate student explorer blending technology and crea
 
 ## 🏆 School Olympics Memories
 
-<table>
+<table width="100%" style="border-collapse: collapse; border: none;">
   <tr>
-    <td align="center" valign="top">
-      <img src="olympics.jpg" width="300" style="border-radius: 8px;" alt="School Olympics 1" /><br>
-      <em>"Giving my all during the tournament! 🏅"</em>
+    <td width="48%" align="center" valign="top" style="border: none; padding: 10px;">
+      <img src="olympics.jpg" width="100%" style="border-radius: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);" alt="School Olympics 1" /><br><br>
+      <caption align="bottom"><em>"Giving my all during the tournament! 🏅"</em></caption>
     </td>
-    <td align="center" valign="top">
-      <img src="olympics2.jpg" width="300" style="border-radius: 8px;" alt="School Olympics 2" /><br>
-      <em>"Teamwork makes the dream work! ⚡"</em>
+    <td width="48%" align="center" valign="top" style="border: none; padding: 10px;">
+      <img src="olympics2.jpg" width="100%" style="border-radius: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);" alt="School Olympics 2" /><br><br>
+      <caption align="bottom"><em>"Teamwork makes the dream work! ⚡"</em></caption>
     </td>
   </tr>
 </table>
