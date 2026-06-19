@@ -1,9 +1,8 @@
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=30&duration=3500&pause=1000&color=00F2FE&center=true&vCenter=true&width=700&lines=%F0%9F%91%8B+Hi%2C+I'm+Kate+Cerezo!;Welcome+to+my+AI+Engineered+Profile" alt="Typing SVG" />
-</p>
+<h1 align="center" style="color: #00F2FE; font-family: 'Fira Code', monospace; border-bottom: none;">👋 Hi, I'm Kate Cerezo!</h1>
+<p align="center" style="font-size: 1.2em; color: #8b949e;">Welcome to my AI Engineered Profile Portfolio</p>
 
 <p align="center">
-  <img src="profile_avatar.jpg" width="180" height="180" style="border-radius: 50%;" alt="Profile Avatar" />
+  <img src="profile_avatar.jpg" width="180" height="180" style="border-radius: 50%; border: 3px solid #00F2FE;" alt="Profile Avatar" />
 </p>
 
 ---
