@@ -36,12 +36,10 @@ Hi! I am Kate Cerezo, a passionate student explorer blending technology and crea
 ## 🏆 School Olympics Memories
 
 <p align="center">
-  <span style="display: inline-block; text-align: center; margin: 10px;">
-    <img src="olympics.jpg" width="300" style="border-radius: 8px;" alt="School Olympics 1" /><br>
-    <em>"Giving my all during the tournament! 🏅"</em>
-  </span>
-  <span style="display: inline-block; text-align: center; margin: 10px;">
-    <img src="olympics2.jpg" width="300" style="border-radius: 8px;" alt="School Olympics 2" /><br>
-    <em>"Teamwork makes the dream work! ⚡"</em>
-  </span>
+  <img src="https://raw.githubusercontent.com/katecerezo9-wq/my-ai-profile/main/olympics.jpg" width="45%" style="border-radius: 12px; margin: 10px; display: inline-block;" alt="School Olympics 1" />
+  <img src="https://raw.githubusercontent.com/katecerezo9-wq/my-ai-profile/main/olympics2.jpg" width="45%" style="border-radius: 12px; margin: 10px; display: inline-block;" alt="School Olympics 2" />
+</p>
+
+<p align="center" style="font-style: italic;">
+  "Giving my all during the tournament! 🏅" &nbsp;&nbsp;&nbsp;&nbsp; Teamwork makes the dream work! ⚡"
 </p>
